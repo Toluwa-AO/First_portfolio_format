@@ -283,7 +283,7 @@ class heroText extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 90,
             ),
             Center(
