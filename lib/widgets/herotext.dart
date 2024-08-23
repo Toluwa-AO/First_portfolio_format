@@ -130,12 +130,14 @@ class heroText extends StatelessWidget {
                     ],
                   )),
             ),
+            // helping hand here
             SizedBox(
               height: Responsive.isTablet(context) ? 60 : 90,
             ),
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: Text(
+                  // flip animation idea?
                 "Featured Work",
                 style: Responsive.isMobile(context)
                     ? GoogleFonts.outfit(

@@ -33,7 +33,7 @@ class mainScreen extends StatelessWidget {
                         flex: 9,
                         child: Container(
                           width: maxWidth,
-                          child: SingleChildScrollView(
+                          child: const SingleChildScrollView(
                             scrollDirection: Axis.vertical,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.start,
